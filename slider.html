@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be better, Barrel</title>
+    <script src="slider.js"></script>
+    <link rel="stylesheet" href="slider.css">
+
+    <style>
+      #norwegian {
+        background-image: url(img/main1.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      #french {
+        background-image: url(img/main2.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      #spanish {
+           background-image: url(img/main3.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      #hindi{
+        background-image: url(img/main4.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      #mandarin {
+        background-image: url(img/main5.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+
+      section > span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 7vw;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slides">
+      <section id="norwegian"><span></span></section>
+      <section id="french"><span></span></section>
+      <section id="spanish"><span></span></section>
+      <section id="hindi"><span></span></section>
+      <section id="mandarin"><span></span></section>
+    </div>
+
+    <script>
+      var mySlider = slider('.slides');
+    </script>
+  </body>
+</html>
