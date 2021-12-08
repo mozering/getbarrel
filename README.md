@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # page-slider-js
 A page slider in vanilla JS. Made famous by Apple.com a good while ago. I made this because I couldn't find a decent one in pure vanilla javascript. Oh, it's also responsive.
 
@@ -24,3 +25,6 @@ To create custom links, do something along the lines of:
 
 ## Compability
 Tested working in all modern desktop, tablet and mobile browsers, even including IE10 and up.
+=======
+# getbarrel
+>>>>>>> 4207e6c4b83f72bc1f86393bc753c53800056d87
